@@ -279,6 +279,13 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+| NFR-01 | NFR-Q (Usabilidad) | La interfaz ofrecerá los idiomas castellano y gallego | G | -  | Prueba de verificación de ambos idiomas donde se revisará el correcto uso del lenguaje así como que todos los textos esten en el lenguaje seleccionado | - |
+| NFR-02 | NFR-Q (Fiabilidad; Disponibilidad) | Tras un incidente grave, la plataforma deberá recuperar sus funciones principales en un máximo de cuatro horas desde la declaración del incidente. | G | - | - | - |
+| NFR-03 | NFR-Q (Robustez) | Ante un incidente grave, la pérdida de información no podrá superar las 24 horas anteriores al incidente. | G | - | - | - |
+| NFR-04 | NFR-Q (Robustez) | Se realizará una copia de seguridad diaria de la información de salud y recetas. | G | - | - | - |
+| NFR-05 | NFR-I (Interfaz de usuario) | La interfaz trendrá un diseño responsive para adaptarse a cualquier tipo de pantalla | G | - | - | - |
+| NFR-06 | NFR-Q (Portabilidad) | Se podrá acceder a la plataforma desde cualquier dispositivo con acceso a internet, teniendo mayor facilidad el acceso con el móvil | G | - | - | - |
+
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
