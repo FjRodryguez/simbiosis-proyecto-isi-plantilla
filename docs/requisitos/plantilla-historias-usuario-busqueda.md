@@ -3,8 +3,10 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Fecha | [dd/mm/aaaa] |
-| Versión | [Versión de trabajo] |
+| Estudiante | Francisco Javier Rodríguez Domínguez |
+| Grupo | ISI_7 |
+| Fecha | 28/20/2026 |
+| Versión | Versión 1.0 |
 | Estado | Borrador |
 
 ## Fuentes comunes
@@ -15,69 +17,67 @@
 
 ## Épica de búsqueda
 
+Una épica expresa una necesidad amplia que se descompone en historias con valor propio.
+
 Como [rol], quiero [capacidad amplia], para [beneficio].
 
-**Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
+**Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta. No cuenta como una cuarta historia de la entrega.
 
 ## Justificación de la división
 
-[Justificación de los resultados útiles que separa la división.]
+[Escribir dos frases que expliquen los resultados útiles que separa la división.]
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Buscar recetas seleccionando los ingredientes
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero seleccionar los ingredientes
+para buscar recetas que los contengan.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-086; acta, criterios de búsqueda.
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado una selección de ingredientes, cuando busco una receta, entonces aparecerán solamente las que contengan los ingredientes seleccionados.
+- **CA-02.** Dado una lista de ingredientes, cuando busco una receta, entonces podré seleccionar esos ingredientes.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** Buscar recetas excluyendo ingredientes
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero excluir ingredientes, para buscar recetas que no los contengan.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado un ingrediente que excluya, cuando busque una receta, entonces no aparecerán recetas que lo contengan.
+- **CA-02.** Dado una lista de ingrediente, cuando busco una receta, entonces podré marcarlo para excluirlo.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** Búsqueda por texto
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario registrado, quiero buscar una receta por título o descripción, para encontrar una receta con dicho título o descripción.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado un título, cuando busco una receta, entonces aparecerán solamente las recetas con ese mismo título.
+- **CA-02.** Dada una descripción, cuando busco una receta, entonces aparecerán solamente las recetas con esa descripción.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
-## Revisión INVEST
+## Mejora tras la revisión INVEST
 
-La revisión abarca US-01, US-02 y US-03. «Aplicado» indica si se ha realizado la comprobación. «Cumple» indica si todas las historias cumplen el criterio. Si alguna no lo cumple, indicar «No» e identificar la historia y el motivo en la justificación. Si no se ha realizado la comprobación o faltan datos, indicar «Pendiente» en «Cumple».
-
-| Criterio | Pregunta de revisión | Aplicado | Cumple | Justificación |
-| --- | --- | --- | --- | --- |
-| Independiente | ¿Puede implementarse cada historia y ofrecer un resultado útil sin implementar antes las otras historias del conjunto? Puede compartir infraestructura con ellas. | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Negociable | ¿Cada historia explica qué necesita la persona y deja margen para discutir los detalles de la solución, respetando los acuerdos confirmados? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Valiosa | ¿La parte «para…» de cada historia explica el beneficio que obtiene la persona al usar esa capacidad? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Estimable | ¿Están claros el alcance y los datos necesarios para estimar el trabajo de cada historia? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Pequeña | ¿Se centra cada historia en una única capacidad de alcance manejable? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Comprobable | ¿Los criterios de aceptación de cada historia describen acciones y resultados observables que permiten distinguir un comportamiento correcto de uno incorrecto? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
+[Indicar la mejora principal y su motivo. Si se mantiene la redacción, justificar una decisión concreta.]
 
 ## Dudas pendientes
 
-[Cuestiones pendientes de aclaración. Si no quedan cuestiones, indicar «Ninguna».]
+[Indicar una duda real si queda algún criterio incompleto. Si no hay dudas, escribir «Ninguna».]
+
+## Declaración de uso de IA
+
+No he utilizado IA.
